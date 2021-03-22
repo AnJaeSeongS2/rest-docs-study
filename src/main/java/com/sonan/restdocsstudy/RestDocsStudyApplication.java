@@ -9,5 +9,4 @@ public class RestDocsStudyApplication {
     public static void main(String[] args) {
         SpringApplication.run(RestDocsStudyApplication.class, args);
     }
-
 }

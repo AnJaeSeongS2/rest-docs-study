@@ -8,6 +8,7 @@ class RestDocsStudyApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("Test contextLoads success");
     }
 
 }
