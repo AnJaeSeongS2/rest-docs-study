@@ -2,18 +2,16 @@ package com.sonan.restdocsstudy.controller;
 
 import com.sonan.restdocsstudy.model.Hello;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
  * Created by Jaeseong on 2021/03/22
  * Git Hub : https://github.com/AnJaeSeongS2
  */
-@Controller
+@RestController
 public class HelloController {
+
     @GetMapping(value = "/helloworld/string")
     @ResponseBody
     public String helloworldString() {
